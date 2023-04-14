@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="color">
+    <div class="container">
+        <div class="col"><div></div></div>
+        <h1>cruds</h1>
+        <h5>product management system</h5>
+        <div class="body color">
+            <input class="Title" type="text" placeholder="Title">
+            <div class="inputs">
+                <input onkeyup="getTotal()" class="Price" type="number" placeholder="Price">
+                <input onkeyup="getTotal()" class="Taxes" type="number" placeholder="Taxes">
+                <input onkeyup="getTotal()" class="Ads" type="number" placeholder="Ads">
+                <input onkeyup="getTotal()" class="Discount" type="number" placeholder="Discount">
+                <span class="Total">Total:<span></span></span>
+            </div>
+            <input type="number" class="count" placeholder="Count">
+            <input type="text" class="categore" placeholder="Categore">
+            <button class="butCreate">Create</button>
+            <input onkeyup="searchData(this.value)" class="Search" type="text" placeholder="Search By Title">
+            <div class="buttons">
+                <button class="butSearchTit" onclick="getSearchMood(this.id)" id="SearchTitle">Search By Title</button>
+                <button class="butSearchCat"onclick="getSearchMood(this.id)" id="SearchCategory">Search By Category</button>
+            </div>
+            <button class="butDeleteAll">Delete All (<span>30</span>)</button>
+            <div class="thade"><span>id</span><span>title</span><span>price</span><span>Taxes</span><span>ads</span><span>discount</span><span>total</span><span>categore</span><span>update</span><span>delete</span></div>
+            <div class="cont">
+                <!-- <div class="tbody"><span>1</span><span>iphone</span><span>12</span><span>212</span><span>422</span><span>21</span><span>466</span><span>phone</span><span><button>Update</button></span><span><button>Delete</button></span></div>
+                <div class="tbody"><span>1</span><span>iphone</span><span>12</span><span>212</span><span>422</span><span>21</span><span>466</span><span>phone</span><span><button>Update</button></span><span><button>Delete</button></span></div>
+                <div class="tbody"><span>1</span><span>iphone</span><span>12</span><span>212</span><span>422</span><span>21</span><span>466</span><span>phone</span><span><button>Update</button></span><span><button>Delete</button></span></div>
+                <div class="tbody"><span>1</span><span>iphone</span><span>12</span><span>212</span><span>422</span><span>21</span><span>466</span><span>phone</span><span><button>Update</button></span><span><button>Delete</button></span></div> -->
+            </div>
+        </div>
+    </div>
+    <script src="./jss.js"></script>
+</body>
+</html>
