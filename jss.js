@@ -126,7 +126,7 @@ function showData() {
     for (let i = 0; i < data.length; i++) {
         count += `
         <div class="tbody">
-            <span>${i}</span>
+            <span>${i + 1}</span>
             <span>${data[i].titel}</span>
             <span>${data[i].Price}</span>
             <span>${data[i].Taxes}</span>
